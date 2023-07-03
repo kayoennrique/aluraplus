@@ -1,9 +1,10 @@
-:root{
+:root {
     --branco-principal: #FFFFFF;
-    --cinza-secundario: #c0c0c0;
-    --botao-azul: #167bf7;
-    --cor-de-fundo: #00030c;   
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';
+    --botao-azul-efeito: #3c92fa;
 }
 
 body {
@@ -22,8 +23,8 @@ body {
 .principal {
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
-    background-size: contain ;
-    align-items: center ;
+    background-size: contain;
+    align-items: center;
     text-align: center;
 }
 
@@ -66,30 +67,29 @@ body {
     margin: 0 6em;
 }
 
-.container__imagem{
+.secundario__imagem {
     width: 80%;
 }
 
-.secundario{
+.secundario {
     align-items: center;
     margin: 0 10em;
 }
 
-.descricao__titulo{
+.descricao__titulo {
     font-weight: 700;
     font-size: 48px;
     color: var(--branco-principal);
-    margin-bottom: 0.3em;
+    margin-bottom: 0.1em;
 }
 
-.descricao__texto{
+.descricao__texto {
     color: var(--cinza-secundario);
 }
 
 .secundario__botao {
     display: inline-block;
     margin-top: 1em;
-    
 }
 
 .container__descricao {
@@ -98,7 +98,7 @@ body {
 
 .dispositivos__lista {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     list-style-type: none;
     margin: 5em 0;
 }
@@ -107,12 +107,12 @@ body {
     text-align: center;
 }
 
-.dispositivos__titulo{
+.dispositivos__titulo {
     font-size: 48px;
     color: var(--branco-principal);
 }
 
-.lista__item{
+.lista__item {
     font-size: 32px;
     color: var(--branco-principal);
 }
